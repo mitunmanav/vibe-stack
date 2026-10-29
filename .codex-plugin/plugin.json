@@ -1,0 +1,24 @@
+{
+  "name": "vibe-stack",
+  "displayName": "Vibe Stack",
+  "version": "1.0.0",
+  "description": "Plain-English skills that let non-technical creators describe what they want, preview options visually, and build verified software step by step.",
+  "author": {
+    "name": "Vibe Stack Contributors"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/start-project",
+    "./skills/ask-me",
+    "./skills/freeze-plan",
+    "./skills/build-step",
+    "./skills/repair",
+    "./skills/launch-check",
+    "./skills/plain-english",
+    "./skills/undo",
+    "./skills/clarifying",
+    "./skills/showing-options",
+    "./skills/checking-behavior",
+    "./skills/auditing-work"
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Checking Behavior"
+  short_description: "Fail-first automated verification rules for building and repairing features."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: true

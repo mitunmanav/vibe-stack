@@ -1,0 +1,6 @@
+interface:
+  display_name: "Undo"
+  short_description: "Rewind your project to a working Save Point or save a session handoff note."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

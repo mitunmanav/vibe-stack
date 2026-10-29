@@ -1,0 +1,6 @@
+interface:
+  display_name: "Showing Options"
+  short_description: "Open clickable visual layout options or flow previews in your browser."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: true

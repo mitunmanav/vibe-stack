@@ -1,0 +1,12 @@
+{
+  "name": "vibe-stack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plain-English skills plugin for non-technical builders.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "python3 scripts/validate-plugin.py",
+    "sync-version": "node scripts/sync-plugin-version.mjs",
+    "check-version": "node scripts/sync-plugin-version.mjs --check"
+  }
+}

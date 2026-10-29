@@ -1,0 +1,6 @@
+interface:
+  display_name: "Freeze Plan"
+  short_description: "Save your agreed idea as a plain-English plan and playable steps."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

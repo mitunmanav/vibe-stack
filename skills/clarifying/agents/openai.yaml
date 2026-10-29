@@ -1,0 +1,6 @@
+interface:
+  display_name: "Clarifying"
+  short_description: "Plain-language interview and 3-bucket question translator."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: true

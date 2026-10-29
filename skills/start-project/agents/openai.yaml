@@ -1,0 +1,6 @@
+interface:
+  display_name: "Start Project"
+  short_description: "Set up your .vibe/ workspace, wordbook, and first Save Point."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Build Step"
+  short_description: "Save a restore point, build and verify one playable step, and open a live demo."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

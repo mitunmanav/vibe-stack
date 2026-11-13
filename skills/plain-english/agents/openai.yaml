@@ -1,0 +1,6 @@
+interface:
+  display_name: "Plain English"
+  short_description: "Say the last message again in everyday words, then what to type next."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

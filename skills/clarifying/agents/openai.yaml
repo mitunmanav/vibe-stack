@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clarifying"
+  short_description: "Plain-words interview that decides technical details and asks only about what people see."
+  brand_color: "#2563EB"

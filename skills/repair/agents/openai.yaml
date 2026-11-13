@@ -1,0 +1,6 @@
+interface:
+  display_name: "Repair"
+  short_description: "Make a problem happen on demand, fix the real cause, and keep it fixed."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

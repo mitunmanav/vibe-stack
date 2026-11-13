@@ -1,0 +1,6 @@
+interface:
+  display_name: "Freeze Plan"
+  short_description: "Save what we agreed as a plain-English plan and a run of Playable Steps."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

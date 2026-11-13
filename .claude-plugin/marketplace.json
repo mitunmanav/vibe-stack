@@ -1,0 +1,22 @@
+{
+  "name": "vibe-stack-catalog",
+  "description": "Self-hosted plugin catalog for Vibe Stack: plain-English app-building skills for non-technical creators.",
+  "owner": {
+    "name": "Vibe Stack Contributors"
+  },
+  "plugins": [
+    {
+      "name": "vibe-stack",
+      "displayName": "Vibe Stack",
+      "source": "./",
+      "description": "Plain-English skills that let non-technical creators describe what they want, preview options visually, and build verified software step by step.",
+      "category": "productivity",
+      "tags": [
+        "vibe-coding",
+        "non-technical",
+        "plain-english",
+        "app-builder"
+      ]
+    }
+  ]
+}

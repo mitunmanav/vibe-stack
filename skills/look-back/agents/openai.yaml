@@ -1,0 +1,6 @@
+interface:
+  display_name: "Look Back (beta)"
+  short_description: "Find what would have prevented the trouble and offer changes so it does not repeat."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

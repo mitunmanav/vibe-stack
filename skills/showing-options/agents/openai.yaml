@@ -1,0 +1,4 @@
+interface:
+  display_name: "Showing Options"
+  short_description: "Throwaway clickable previews of layout options or how a feature behaves."
+  brand_color: "#2563EB"

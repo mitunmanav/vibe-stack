@@ -1,0 +1,4 @@
+interface:
+  display_name: "Checking Behavior"
+  short_description: "Red-green rules for proving a step or repair works."
+  brand_color: "#2563EB"

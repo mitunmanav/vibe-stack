@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+* New background skill `translating`. Every open decision is sorted before you see it: the agent settles hidden build choices and logs them, everyday choices are asked plainly, and risky ones are asked as one-way doors with the consequence first.
+* Every agent choice now goes in `.vibe/DECISIONS.md` with what you will notice, its risks, and how to change it. Changing an entry reopens the choices that depended on it.
+* Saying "I don't understand" or "show me an example" during questions now gets a simpler explanation without changing the options.
+
 ## 1.0.0
 
 First public release.

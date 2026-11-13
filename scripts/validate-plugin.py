@@ -3,7 +3,7 @@
 Validator and Originality/Similarity Checker for the Vibe Stack plugin.
 Checks:
 1. Manifest JSON validity and version sync (.claude-plugin/plugin.json, marketplace.json, .codex-plugin/plugin.json).
-2. All 12 skills under skills/<name>/SKILL.md and agents/openai.yaml.
+2. All 15 skills under skills/<name>/SKILL.md and agents/openai.yaml.
 3. Frontmatter rules: name regex & folder match, description length (12-42 words, <=1024 chars), invocation flags.
 4. One-way invocation hierarchy: skills call only background skills, and only as "Call the Skill tool with".
 4b. Harness neutrality: no Claude-only placeholders such as $ARGUMENTS in skill bodies.
@@ -38,6 +38,7 @@ EXPECTED_MODEL_SKILLS = {
     "showing-options",
     "checking-behavior",
     "auditing-work",
+    "translating",
 }
 
 ALL_EXPECTED_SKILLS = EXPECTED_USER_SKILLS | EXPECTED_MODEL_SKILLS

@@ -19,6 +19,7 @@
     "./skills/clarifying",
     "./skills/showing-options",
     "./skills/checking-behavior",
-    "./skills/auditing-work"
+    "./skills/auditing-work",
+    "./skills/translating"
   ]
 }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Translating"
+  short_description: "Sorts every question into agent choice, plain question, or one-way door, and logs it."
+  brand_color: "#2563EB"

@@ -27,6 +27,12 @@ Choices made for this project that you might want to change. To change one, tell
 * **Status:** ACTIVE | **Decided by:** AGENT
 * **What we chose:** <one plain sentence, e.g. "Runs on your computer as a small website; no accounts or payments needed to try it.">
 * **Why:** <one plain sentence: how this keeps the app simple, safe, free, or easy to change>
+* **What you will notice:** <the visible effect, or "nothing you can see">
+* **Assumes:** <what must stay true for this to hold>
+* **Risk if wrong:** <what would go wrong, in plain words>
+* **Settled by:** <file, page, or check the agent relied on>
+* **Depends on:** nothing
+* **To change it:** say "change D-01" and what you want instead.
 ```
 
 ## Commit guardrail

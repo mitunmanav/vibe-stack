@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tidy Up (beta)"
+  short_description: "Tidy the code behind the scenes; nothing you see changes and every check still passes."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

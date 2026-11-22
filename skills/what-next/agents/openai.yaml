@@ -1,0 +1,6 @@
+interface:
+  display_name: "What Next"
+  short_description: "See where your project is and the one command to type next."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

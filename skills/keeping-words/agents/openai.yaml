@@ -1,0 +1,4 @@
+interface:
+  display_name: "Keeping Words"
+  short_description: "Keep the project wordbook and decision log sharp."
+  brand_color: "#2563EB"

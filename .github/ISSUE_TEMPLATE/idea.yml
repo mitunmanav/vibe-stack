@@ -1,0 +1,41 @@
+name: Idea or feedback
+description: A change to an existing command, grounded in something that went wrong. One change per issue.
+labels: [enhancement, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vibe Stack is curated. An idea stays open only if it clears **both** parts of the bar in [`SCOPE.md`](https://github.com/mitunmanav/vibe-stack/blob/main/SCOPE.md):
+
+        1. **Observed failure**: it describes something that went wrong in a real session, not a hypothetical improvement.
+        2. **No technical burden on the human**: it never asks the person using it to read code, run a command, or settle a git conflict, and it isn't in [`.out-of-scope/`](https://github.com/mitunmanav/vibe-stack/tree/main/.out-of-scope).
+  - type: checkboxes
+    id: read-scope
+    attributes:
+      label: Before filing
+      options:
+        - label: I've read `SCOPE.md` and checked `.out-of-scope/`, and this isn't covered by either.
+          required: true
+        - label: This issue is about one problem.
+          required: true
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      description: Which existing command this changes.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What went wrong
+      description: The real session where the command fell short. What you typed, what it did, and why that was a problem.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What would have helped
+      description: In plain words. Describe it; don't paste a rewritten SKILL.md.
+    validations:
+      required: true

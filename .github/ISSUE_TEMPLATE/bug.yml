@@ -1,0 +1,53 @@
+name: Bug
+description: A command did the wrong thing in a real session. One problem per issue.
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You don't need to read code to file a good bug. Keep it short and put what happened first. If your assistant wrote this for you, cut it down before you post. See [CONTRIBUTING.md](https://github.com/mitunmanav/vibe-stack/blob/main/CONTRIBUTING.md).
+
+        Please remove any secret keys, passwords, or personal details from what you paste.
+  - type: input
+    id: command
+    attributes:
+      label: Command
+      description: Which command, e.g. `/build-step`, `/ask-me`.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Vibe Stack version
+      description: The version you installed, if you know it. Many problems are already fixed in the latest version.
+      placeholder: "1.0.0"
+  - type: input
+    id: assistant
+    attributes:
+      label: Assistant
+      description: e.g. Claude Code, Codex, Cursor. Say how you installed (the plugin or `npx skills`).
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you typed, and what the command did. Paste the relevant part of the chat.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What the command should have done instead.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: This issue is about one problem.
+          required: true
+        - label: I searched open and closed issues for a duplicate.
+          required: true

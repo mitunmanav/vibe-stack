@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clarifying"
+  short_description: "Plain-words interview, a round of questions at a time."
+  brand_color: "#2563EB"

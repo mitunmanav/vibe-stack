@@ -1,0 +1,6 @@
+interface:
+  display_name: "Build Step"
+  short_description: "Save Point, build one Playable Step red-green, review it, open a Demo Card."
+  brand_color: "#2563EB"
+policy:
+  allow_implicit_invocation: false

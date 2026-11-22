@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connecting Services"
+  short_description: "Walk you through the outside-service steps only you can do."
+  brand_color: "#2563EB"

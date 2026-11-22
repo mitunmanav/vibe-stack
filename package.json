@@ -1,0 +1,21 @@
+{
+  "name": "vibe-stack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plain-English agent skills for people who don't read code.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitunmanav/vibe-stack"
+  },
+  "license": "MIT",
+  "scripts": {
+    "check": "node scripts/check-frontmatter.mjs && node scripts/sync-plugin-version.mjs --check && python3 scripts/validate-plugin.py",
+    "changeset": "changeset",
+    "version": "changeset version && node scripts/sync-plugin-version.mjs"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.31.1",
+    "yaml": "^2.9.1"
+  }
+}

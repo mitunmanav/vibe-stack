@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditing Work"
+  short_description: "Two fresh helpers review a change for safety, standards, and plan match."
+  brand_color: "#2563EB"
